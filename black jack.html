@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="black%20jack.js" defer></script>
+    <centr>
+       <form name="display">
+<table bgcolor="#c0c0c0" border="1" cellspacing="0" cellpadding="3">
+    <tr>
+<td><center>Score:</center></td>
+<td><center>Dealer</center></td>
+<td><center><input type=text name="dealer" size="2"></center></td>
+<td><center>Card(s):  <input type=text name="say1" size="18" value=""></center></td>
+</tr>
+<tr>
+<td><center><input type=text name="numgames" size="3" value="0"></center></td>
+<td><center>Player</center></td>
+<td><center><input type=text name="you" size="2"></center></td>
+<td><center>Card(s):  <input type=text name="say2" size="18" value=""></center></td>
+</tr>
+<tr>
+<td><center><input type=button value="Deal" onClick="NewHand(this.form)"></center></td>
+<td colspan=3><center>
+<input type=button value="Stand" onClick="Dealer(this.form);LookAtHands(this.form);">
+<input type=button value=" Hit " onClick="User(this.form)"></center></td></tr>
+</table>
+</form>
+    </centr>
+</head>
