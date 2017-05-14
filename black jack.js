@@ -41,7 +41,16 @@ else alert("Набрано! " + getSum(player) + " очков. Ничья!");
 */
     Function result();
     var result=0;
-    if(getSum (player)==21 ||getSum(player)=<21&&getSum(player)>getSum(diller))
+    if(getSum (player)==21 ||getSum(player)=<21&&getSum(player)>getSum(diller));
+    result =++;
+    else if (getSum(player)>21) alert("перебор,Вы проиграли")
+    result=--;
+  if(getSum (diller)==21 ||getSum(diller)=<21&&getSum(player)<getSum(diller));
+    result=--;
+     else if (getSum(diller)>21) alert("перебор,Игрок победил")
+    result=++;
+    return result;
+    
     
    
  
